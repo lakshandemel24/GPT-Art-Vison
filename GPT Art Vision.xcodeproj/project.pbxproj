@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		04659E3E8A6862936A92DF51 /* Pods_GPT_Art_VisionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C109B83145F0E239DE076728 /* Pods_GPT_Art_VisionTests.framework */; };
 		0FF72D82461F8D5B6BFAFBE2 /* Pods_GPT_Art_Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0133EC5D5C8FB5042A53DB8 /* Pods_GPT_Art_Vision.framework */; };
-		230769492C7A38D50006B430 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230769482C7A38D50006B430 /* SpeechManager.swift */; };
 		233C70BF2CA7F04700E76D8B /* LoggingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233C70BE2CA7F04700E76D8B /* LoggingSystem.swift */; };
 		233C70C42CA7FA1100E76D8B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 233C70C32CA7FA1100E76D8B /* RealmSwift */; };
 		233C70D62CA7FB2C00E76D8B /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C70D22CA7FB2C00E76D8B /* NetworkManager.m */; };
@@ -19,16 +18,17 @@
 		233C70DA2CA7FB2C00E76D8B /* IcarusResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C70CC2CA7FB2C00E76D8B /* IcarusResource.m */; };
 		233C70DB2CA7FB2C00E76D8B /* FsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C70C82CA7FB2C00E76D8B /* FsStorage.m */; };
 		233C70DD2CA7FEC500E76D8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233C70DC2CA7FEC500E76D8B /* AppDelegate.swift */; };
+		237403B12CAAAC7E00A4572F /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237403B02CAAAC7E00A4572F /* SpeechManager.swift */; };
+		237403B82CAAAD0B00A4572F /* PaintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237403B72CAAAD0B00A4572F /* PaintingView.swift */; };
+		237403BA2CAAAD3100A4572F /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237403B92CAAAD3100A4572F /* CustomARViewRepresentable.swift */; };
+		237403BC2CAAAD4900A4572F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237403BB2CAAAD4900A4572F /* ContentView.swift */; };
+		237403BE2CAAAD7100A4572F /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237403BD2CAAAD7100A4572F /* CustomARView.swift */; };
 		239A57202C78C60200A72142 /* GPT_Art_VisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A571F2C78C60200A72142 /* GPT_Art_VisionApp.swift */; };
 		239A57242C78C60300A72142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239A57232C78C60300A72142 /* Assets.xcassets */; };
 		239A57272C78C60300A72142 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239A57262C78C60300A72142 /* Preview Assets.xcassets */; };
 		239A57312C78C60400A72142 /* GPT_Art_VisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A57302C78C60400A72142 /* GPT_Art_VisionTests.swift */; };
 		239A573B2C78C60400A72142 /* GPT_Art_VisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A573A2C78C60400A72142 /* GPT_Art_VisionUITests.swift */; };
 		239A573D2C78C60400A72142 /* GPT_Art_VisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A573C2C78C60400A72142 /* GPT_Art_VisionUITestsLaunchTests.swift */; };
-		239A574E2C78C6C200A72142 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A574A2C78C6C200A72142 /* CustomARView.swift */; };
-		239A574F2C78C6C200A72142 /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A574B2C78C6C200A72142 /* CustomARViewRepresentable.swift */; };
-		239A57512C78C6D400A72142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A57502C78C6D400A72142 /* ContentView.swift */; };
-		23F061112C975A2D0046AC36 /* PaintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F061102C975A2D0046AC36 /* PaintingView.swift */; };
 		4F1998680CFA9C1C071F7D58 /* Pods_GPT_Art_Vision_GPT_Art_VisionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C271923AB44E4623A7B55B /* Pods_GPT_Art_Vision_GPT_Art_VisionUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		230769482C7A38D50006B430 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpeechManager.swift; path = ../../ARapp/ARapp/Views/SpeechManager.swift; sourceTree = "<group>"; };
 		233C70BE2CA7F04700E76D8B /* LoggingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingSystem.swift; sourceTree = "<group>"; };
 		233C70C52CA7FA3700E76D8B /* Icarus */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icarus; sourceTree = "<group>"; };
 		233C70C62CA7FA9600E76D8B /* IcarusFramework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = IcarusFramework; path = "../../../logging sys/IcarusFramework"; sourceTree = "<group>"; };
@@ -69,6 +68,11 @@
 		233C70D32CA7FB2C00E76D8B /* VolatileStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VolatileStorage.h; sourceTree = "<group>"; };
 		233C70D42CA7FB2C00E76D8B /* VolatileStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolatileStorage.m; sourceTree = "<group>"; };
 		233C70DC2CA7FEC500E76D8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		237403B02CAAAC7E00A4572F /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		237403B72CAAAD0B00A4572F /* PaintingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingView.swift; sourceTree = "<group>"; };
+		237403B92CAAAD3100A4572F /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
+		237403BB2CAAAD4900A4572F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		237403BD2CAAAD7100A4572F /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		239A571C2C78C60200A72142 /* GPT Art Vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPT Art Vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		239A571F2C78C60200A72142 /* GPT_Art_VisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Art_VisionApp.swift; sourceTree = "<group>"; };
 		239A57232C78C60300A72142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,10 +82,6 @@
 		239A57362C78C60400A72142 /* GPT Art VisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPT Art VisionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		239A573A2C78C60400A72142 /* GPT_Art_VisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Art_VisionUITests.swift; sourceTree = "<group>"; };
 		239A573C2C78C60400A72142 /* GPT_Art_VisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Art_VisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		239A574A2C78C6C200A72142 /* CustomARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomARView.swift; path = ../CustomARView.swift; sourceTree = "<group>"; };
-		239A574B2C78C6C200A72142 /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomARViewRepresentable.swift; path = ../CustomARViewRepresentable.swift; sourceTree = "<group>"; };
-		239A57502C78C6D400A72142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
-		23F061102C975A2D0046AC36 /* PaintingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaintingView.swift; path = ../PaintingView.swift; sourceTree = "<group>"; };
 		56A3F38F2F3517FD92FCF365 /* Pods-GPT Art VisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPT Art VisionTests.release.xcconfig"; path = "Target Support Files/Pods-GPT Art VisionTests/Pods-GPT Art VisionTests.release.xcconfig"; sourceTree = "<group>"; };
 		5A96DFE96A0D7F719FCBB818 /* Pods-GPT Art Vision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPT Art Vision.debug.xcconfig"; path = "Target Support Files/Pods-GPT Art Vision/Pods-GPT Art Vision.debug.xcconfig"; sourceTree = "<group>"; };
 		7B83C53AB4D939DDB155514C /* Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig"; path = "Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests/Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,24 +122,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23168D4B2CA6F54600DCCE12 /* ARView */ = {
-			isa = PBXGroup;
-			children = (
-				239A57502C78C6D400A72142 /* ContentView.swift */,
-				239A574B2C78C6C200A72142 /* CustomARViewRepresentable.swift */,
-				239A574A2C78C6C200A72142 /* CustomARView.swift */,
-			);
-			path = ARView;
-			sourceTree = "<group>";
-		};
-		23168D4C2CA6F55A00DCCE12 /* PaintingView */ = {
-			isa = PBXGroup;
-			children = (
-				23F061102C975A2D0046AC36 /* PaintingView.swift */,
-			);
-			path = PaintingView;
-			sourceTree = "<group>";
-		};
 		233C70D52CA7FB2C00E76D8B /* Icarus */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +141,33 @@
 				233C70D42CA7FB2C00E76D8B /* VolatileStorage.m */,
 			);
 			path = Icarus;
+			sourceTree = "<group>";
+		};
+		237403B42CAAACE500A4572F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				237403B62CAAACF900A4572F /* ARView */,
+				237403B52CAAACEE00A4572F /* PaintingView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		237403B52CAAACEE00A4572F /* PaintingView */ = {
+			isa = PBXGroup;
+			children = (
+				237403B72CAAAD0B00A4572F /* PaintingView.swift */,
+			);
+			path = PaintingView;
+			sourceTree = "<group>";
+		};
+		237403B62CAAACF900A4572F /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				237403BD2CAAAD7100A4572F /* CustomARView.swift */,
+				237403B92CAAAD3100A4572F /* CustomARViewRepresentable.swift */,
+				237403BB2CAAAD4900A4572F /* ContentView.swift */,
+			);
+			path = ARView;
 			sourceTree = "<group>";
 		};
 		239A57132C78C60200A72142 = {
@@ -187,11 +196,11 @@
 		239A571E2C78C60200A72142 /* GPT Art Vision */ = {
 			isa = PBXGroup;
 			children = (
-				239A574C2C78C6C200A72142 /* Views */,
+				237403B42CAAACE500A4572F /* Views */,
 				239A571F2C78C60200A72142 /* GPT_Art_VisionApp.swift */,
 				233C70DC2CA7FEC500E76D8B /* AppDelegate.swift */,
-				230769482C7A38D50006B430 /* SpeechManager.swift */,
 				233C70BE2CA7F04700E76D8B /* LoggingSystem.swift */,
+				237403B02CAAAC7E00A4572F /* SpeechManager.swift */,
 				239A57232C78C60300A72142 /* Assets.xcassets */,
 				239A57252C78C60300A72142 /* Preview Content */,
 			);
@@ -221,16 +230,6 @@
 				239A573C2C78C60400A72142 /* GPT_Art_VisionUITestsLaunchTests.swift */,
 			);
 			path = "GPT Art VisionUITests";
-			sourceTree = "<group>";
-		};
-		239A574C2C78C6C200A72142 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				23168D4C2CA6F55A00DCCE12 /* PaintingView */,
-				23168D4B2CA6F54600DCCE12 /* ARView */,
-			);
-			name = Views;
-			path = ../../ARapp/ARapp/Views;
 			sourceTree = "<group>";
 		};
 		8472CABC7F8CADF2CE2A00D9 /* Pods */ = {
@@ -499,19 +498,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				239A574F2C78C6C200A72142 /* CustomARViewRepresentable.swift in Sources */,
-				230769492C7A38D50006B430 /* SpeechManager.swift in Sources */,
+				237403B12CAAAC7E00A4572F /* SpeechManager.swift in Sources */,
 				233C70DD2CA7FEC500E76D8B /* AppDelegate.swift in Sources */,
-				23F061112C975A2D0046AC36 /* PaintingView.swift in Sources */,
 				233C70BF2CA7F04700E76D8B /* LoggingSystem.swift in Sources */,
-				239A57512C78C6D400A72142 /* ContentView.swift in Sources */,
+				237403BA2CAAAD3100A4572F /* CustomARViewRepresentable.swift in Sources */,
+				237403BC2CAAAD4900A4572F /* ContentView.swift in Sources */,
+				237403BE2CAAAD7100A4572F /* CustomARView.swift in Sources */,
 				239A57202C78C60200A72142 /* GPT_Art_VisionApp.swift in Sources */,
-				239A574E2C78C6C200A72142 /* CustomARView.swift in Sources */,
 				233C70D62CA7FB2C00E76D8B /* NetworkManager.m in Sources */,
 				233C70D72CA7FB2C00E76D8B /* VolatileStorage.m in Sources */,
 				233C70D82CA7FB2C00E76D8B /* IcarusUtilities.m in Sources */,
 				233C70D92CA7FB2C00E76D8B /* Icarus.m in Sources */,
 				233C70DA2CA7FB2C00E76D8B /* IcarusResource.m in Sources */,
+				237403B82CAAAD0B00A4572F /* PaintingView.swift in Sources */,
 				233C70DB2CA7FB2C00E76D8B /* FsStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -694,7 +693,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Lak.GPT-Art-Vision";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lakshan.GPT-Art-Vision";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Icarus/GPT-Art-Vision-Bridging-Header.h";
@@ -727,7 +726,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Lak.GPT-Art-Vision";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lakshan.GPT-Art-Vision";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Icarus/GPT-Art-Vision-Bridging-Header.h";
