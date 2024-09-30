@@ -148,7 +148,6 @@ struct PaintingView: View {
             }, errorHandler: { error in
                 // Handle error
             })
-            voiceOverlay.dismiss()
         }
     }
     
@@ -189,13 +188,19 @@ struct PaintingView: View {
         // Make the request
         let task = session.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {
-                print("Error: \(error?.localizedDescription ?? "Unknown error")")
-                SpeechManager.shared.stopSpeaking(immediately: true)
-                SpeechManager.shared.speak(text: "Attualmente stiamo riscontrando problemi di rete...") {
-                    
-                }
-                LoggingSystem.push(eventLog: ["event" : "Error", "details" : "GPT API Error: \(error?.localizedDescription ?? "Unknown error")"], verbose: false)
-                return
+                // Sleep for 2 seconds using async to avoid blocking the main thread
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+
+                        print("Error: \(error?.localizedDescription ?? "Unknown error")")
+                        SpeechManager.shared.stopSpeaking(immediately: true)
+                        SpeechManager.shared.speak(text: "Attualmente stiamo riscontrando problemi di rete...") {
+                            
+                        }
+                        
+                        // Log the error event
+                        LoggingSystem.push(eventLog: ["event" : "Error", "details" : "GPT API Error: \(error?.localizedDescription ?? "Unknown error")"], verbose: false)
+                    }
+                    return
             }
             
             // Calculate waiting time
@@ -219,13 +224,15 @@ struct PaintingView: View {
                 print("Total Tokens Used: \(totalTokens)")
                 LoggingSystem.push(eventLog: ["event" : "GPT request-response", "request" :  speechData.speechRequest, "response" : content, "tokens" : totalTokens, "model" : "gpt-4o", "paintingName" : currentPainting , "responseTime" : String(format: "%.2f", waitingTime)], verbose: false)
             } else {
-                SpeechManager.shared.stopSpeaking(immediately: true)
-                SpeechManager.shared.speak(text: "Attualmente stiamo riscontrando problemi di rete...") {
-                    
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                    SpeechManager.shared.stopSpeaking(immediately: true)
+                    SpeechManager.shared.speak(text: "Attualmente stiamo riscontrando problemi di rete...") {
+                        
+                    }
+                    print("Failed to parse response")
+                    LoggingSystem.push(eventLog: ["event" : "Error", "details" : "GPT failed to parse response"], verbose: false)
+                    return
                 }
-                print("Failed to parse response")
-                LoggingSystem.push(eventLog: ["event" : "Error", "details" : "GPT failed to parse response"], verbose: false)
-                return
             }
         }
         

@@ -27,20 +27,12 @@ class SpeechManager {
     
     private func setupAudioSessionForPlayback() {
         do {
-            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.defaultToSpeaker])
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.defaultToSpeaker, .allowAirPlay])
             try AVAudioSession.sharedInstance().setActive(true)
-            printAvailableAudioRoutes()
             //print("Audio session successfully configured for playback.")
         } catch {
             //print("Failed to configure audio session for playback: \(error.localizedDescription)")
         }
     }
     
-    //method to print available audio routes
-    private func printAvailableAudioRoutes() {
-        let currentRoute = AVAudioSession.sharedInstance().currentRoute
-        for output in currentRoute.outputs {
-            print("Available output: \(output.portName) - \(output.portType.rawValue)")
-        }
-    }
 }
