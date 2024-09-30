@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A4F2950E8D450DAE107ED4995F73B86 /* Pods-GPT Art VisionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2BAB5FCF528AC30C05D4CAB28C9BEA /* Pods-GPT Art VisionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21AE10D00992DB40CB73A31864B43EAD /* VoiceOverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D3980015F6238FD122ADF13552CD6 /* VoiceOverlayController.swift */; };
+		2F3DD307F2EEB76D2D9EA0F30BCD5A4A /* PermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007DFD96E0B6EEFFB638E30FDE58B99B /* PermissionController.swift */; };
+		36150899F496FD20911570360B423549 /* InstantSearchVoiceOverlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CE741D762F691BF42AB99377FE3FC /* InstantSearchVoiceOverlay-dummy.m */; };
+		3675D7CC3F5402498976BDCF49E30A6C /* Pods-GPT Art Vision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B596F603417CFDE196F8C62CFCC19D1 /* Pods-GPT Art Vision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		424EB94BBFA3A97A94793874115BF523 /* siri_start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 558CA1AD0F05689331ADA28E283BD93F /* siri_start.mp3 */; };
+		4990357689879DCFEC2DFABDA5543AEA /* VoiceOverlayPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EECB3DE06F88F17FE26FE5F0B4AB2C /* VoiceOverlayPackage.swift */; };
+		4BF1615DDA8F4C8E533F9EABE1BAF618 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4186F1F15649FC77E51A314EE3A91 /* ResultViewController.swift */; };
+		4EDDC1FAEE011C9F5D1AB9C38EACC55F /* InstantSearchVoiceOverlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC84B8E847A5E8369438024ED7CA6CD /* InstantSearchVoiceOverlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67745B0DB04C9808C71726334685C1CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		694465EFC5F35272C0A2579A814BC2FF /* Pods-GPT Art Vision-GPT Art VisionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD24CD95024A3C7C84C48D8792BBE650 /* Pods-GPT Art Vision-GPT Art VisionUITests-dummy.m */; };
+		713F13C8DF5E2E86320A1A2DCBB8FC10 /* Recordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1EE55F34E601FDF740E787A975BCC /* Recordable.swift */; };
+		749E8A6DF7317BA967676D2F98151CAB /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4166B62C49DB6236A4FC5E68EE83D9AD /* RecordingViewController.swift */; };
+		869BF589E4C75673915DB95E8C9A4F8C /* AutoLayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CD3BEA3DBA28389913616D94EDBC3 /* AutoLayoutHelpers.swift */; };
+		A2F04C460BFB95F2C716F9457BE5BD2D /* Pods-GPT Art Vision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A599796913BE5D09D4D8820153EE3D /* Pods-GPT Art Vision-dummy.m */; };
+		A65D51D04D880EE9122FA0287B2EA026 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB75FEEFB295D3C4D809DB70A5D6C7 /* Constant.swift */; };
+		AF3A29E67E34282D50D7DC97742D5243 /* CloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9113B8F00A4CC024F57B76E8BA8E10AA /* CloseView.swift */; };
+		B0BAE9538FA26117A2CF1C2AB2A2B3E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BA1AFC0A9203F0E87C321FE204C11F12 /* MicrophonePermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B350806A265177DD131E0CDE66144 /* MicrophonePermissionController.swift */; };
+		BC152B478B694588EB28350029A2617B /* AllowPermissionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A9EC1722617E668250F4F44CA5088 /* AllowPermissionButton.swift */; };
+		BE67F42865862718E42A19D22FA2233B /* SpeechRecognitionPermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C5C1A22A8C7166E38695C126A8D29 /* SpeechRecognitionPermissionController.swift */; };
+		C4435593B5ECBDE56CC3F5D5D6C990C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DECFFA47D4898AE1512DC7BB3D595E /* Assets.xcassets */; };
+		C46C1116AA0E15E6FCE33D096F010C3C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B8885C5461029381EB29D607F85B0 /* Extensions.swift */; };
+		C79028A35996D001576898825A855A9C /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B0FF7FE1EAD0A54B8F00DDB879E712 /* SpeechController.swift */; };
+		C90F6CC0D0E8441E62E9B140A888BF75 /* siri_error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7C4724338095EDDECBBBF1FFE671307 /* siri_error.mp3 */; };
+		D8AC6E738E4E3FA7E729B4B84D333F6C /* RecordingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870EB25838230F6FD6650BB452FE2BB5 /* RecordingButton.swift */; };
+		D927B342D461544C45F616DC6C57B8F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DB98BEE4B060CA1D7589E2C0B4CC03BF /* NoPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012E6DBDF8A5ED9EDD750F120512178 /* NoPermissionViewController.swift */; };
+		E2DE8721576C7E65B227FB6E8AD61663 /* Pods-GPT Art VisionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D5ABB2ADCFDC907E248AD6B6DA3734 /* Pods-GPT Art VisionTests-dummy.m */; };
+		E6EDE681265E0972D9B97A871862B77C /* Pods-GPT Art Vision-GPT Art VisionUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFED5C24A9BA327E70306D52E79A7D8 /* Pods-GPT Art Vision-GPT Art VisionUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA15CA6E08F706CCD958B5EEBBD75C90 /* siri_end.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88122E317EB7575A4EB55DF442C726E2 /* siri_end.mp3 */; };
+		F8A7450D0636AA46CDBEB1AE465A13C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE3528054D192AEEF224A8747C9FDBF9 /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A99096E4B017CE7CE37843FC66FCC2 /* PermissionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31B814DE497F43AD470B217446DEDC3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22B6851CB037D3A0081C53D5BE51AA1;
+			remoteInfo = "Pods-GPT Art Vision";
+		};
+		40130B2AD5A64C3BD9BAF1224CCD7E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A186D5E4FEF43A5AF44DB305B59EC1F;
+			remoteInfo = InstantSearchVoiceOverlay;
+		};
+		BE0B19F8998810D9F8685EB2F5943088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A186D5E4FEF43A5AF44DB305B59EC1F;
+			remoteInfo = InstantSearchVoiceOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007DFD96E0B6EEFFB638E30FDE58B99B /* PermissionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionController.swift; path = Sources/InstantSearchVoiceOverlay/Protocols/PermissionController.swift; sourceTree = "<group>"; };
+		05A599796913BE5D09D4D8820153EE3D /* Pods-GPT Art Vision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPT Art Vision-dummy.m"; sourceTree = "<group>"; };
+		0ACD2FF167BD1C431FCE8E05874B4746 /* Pods-GPT Art VisionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPT Art VisionTests.modulemap"; sourceTree = "<group>"; };
+		0B3B350806A265177DD131E0CDE66144 /* MicrophonePermissionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MicrophonePermissionController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/Permission/MicrophonePermissionController.swift; sourceTree = "<group>"; };
+		0C7B8885C5461029381EB29D607F85B0 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/InstantSearchVoiceOverlay/Helpers/Extensions.swift; sourceTree = "<group>"; };
+		10DE7375D8EB7075D1813CBAD0733CC9 /* Pods-GPT Art Vision-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPT Art Vision-acknowledgements.markdown"; sourceTree = "<group>"; };
+		113B4F8296F500A88980264815A732E0 /* InstantSearchVoiceOverlay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InstantSearchVoiceOverlay.modulemap; sourceTree = "<group>"; };
+		12B0FF7FE1EAD0A54B8F00DDB879E712 /* SpeechController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/SpeechController.swift; sourceTree = "<group>"; };
+		1376893AE64678CC9AAE14CD85AE6744 /* Pods-GPT Art Vision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPT Art Vision.debug.xcconfig"; sourceTree = "<group>"; };
+		1CF495E3D6F0D54166AE44B656133DC3 /* Pods-GPT Art Vision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPT Art Vision-Info.plist"; sourceTree = "<group>"; };
+		20A99096E4B017CE7CE37843FC66FCC2 /* PermissionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/PermissionViewController.swift; sourceTree = "<group>"; };
+		22EECB3DE06F88F17FE26FE5F0B4AB2C /* VoiceOverlayPackage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceOverlayPackage.swift; path = Sources/InstantSearchVoiceOverlay/VoiceOverlayPackage.swift; sourceTree = "<group>"; };
+		2BC84B8E847A5E8369438024ED7CA6CD /* InstantSearchVoiceOverlay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstantSearchVoiceOverlay-umbrella.h"; sourceTree = "<group>"; };
+		2D09256D7CF62A9932D841979271A409 /* Pods-GPT Art Vision-GPT Art VisionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPT Art Vision-GPT Art VisionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D51EA6A65BEC8A6B1A8F85D3B7FF834 /* Pods-GPT Art Vision-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPT Art Vision-frameworks.sh"; sourceTree = "<group>"; };
+		357E1ECD012178BE2D7393A3BF310B4D /* Pods-GPT Art VisionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPT Art VisionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B596F603417CFDE196F8C62CFCC19D1 /* Pods-GPT Art Vision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPT Art Vision-umbrella.h"; sourceTree = "<group>"; };
+		3CAAF2998F6D3F7536B2C63525A4FC6A /* Pods-GPT Art Vision-GPT Art VisionUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GPT Art Vision-GPT Art VisionUITests"; path = Pods_GPT_Art_Vision_GPT_Art_VisionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4166B62C49DB6236A4FC5E68EE83D9AD /* RecordingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordingViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/RecordingViewController.swift; sourceTree = "<group>"; };
+		474D397B419C97541477AF0A392D14F1 /* Pods-GPT Art Vision-GPT Art VisionUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPT Art Vision-GPT Art VisionUITests.modulemap"; sourceTree = "<group>"; };
+		49DECFFA47D4898AE1512DC7BB3D595E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/InstantSearchVoiceOverlay/Views/Assets.xcassets; sourceTree = "<group>"; };
+		4B2BAB5FCF528AC30C05D4CAB28C9BEA /* Pods-GPT Art VisionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPT Art VisionTests-umbrella.h"; sourceTree = "<group>"; };
+		50F2FA625403C60D276605E74D3963F5 /* Pods-GPT Art VisionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPT Art VisionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5522CFB50C4EE7C2EB244432F8E1F322 /* Pods-GPT Art Vision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPT Art Vision.release.xcconfig"; sourceTree = "<group>"; };
+		553FF46E818CB0BADCEACAEA33EB427B /* Pods-GPT Art Vision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPT Art Vision.modulemap"; sourceTree = "<group>"; };
+		558CA1AD0F05689331ADA28E283BD93F /* siri_start.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = siri_start.mp3; path = Sources/InstantSearchVoiceOverlay/Sound/siri_start.mp3; sourceTree = "<group>"; };
+		5F669754CA69F851A47915CAB3E5C45F /* InstantSearchVoiceOverlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstantSearchVoiceOverlay.release.xcconfig; sourceTree = "<group>"; };
+		6633DF7970A9717632D6E3958390E191 /* InstantSearchVoiceOverlay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InstantSearchVoiceOverlay-Info.plist"; sourceTree = "<group>"; };
+		6DD4186F1F15649FC77E51A314EE3A91 /* ResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/ResultViewController.swift; sourceTree = "<group>"; };
+		713CD3BEA3DBA28389913616D94EDBC3 /* AutoLayoutHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoLayoutHelpers.swift; path = Sources/InstantSearchVoiceOverlay/Helpers/AutoLayoutHelpers.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		783A9EC1722617E668250F4F44CA5088 /* AllowPermissionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllowPermissionButton.swift; path = Sources/InstantSearchVoiceOverlay/Views/AllowPermissionButton.swift; sourceTree = "<group>"; };
+		7F2B41563F69ABE64F706CAB1A1FFDFE /* Pods-GPT Art VisionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPT Art VisionTests-Info.plist"; sourceTree = "<group>"; };
+		8012E6DBDF8A5ED9EDD750F120512178 /* NoPermissionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPermissionViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/NoPermissionViewController.swift; sourceTree = "<group>"; };
+		81CFCE5D316E0001AE14408C01868B75 /* Pods-GPT Art VisionTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GPT Art VisionTests"; path = Pods_GPT_Art_VisionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD9B481BA9486825288ECD4AA8C2A4 /* InstantSearchVoiceOverlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstantSearchVoiceOverlay.debug.xcconfig; sourceTree = "<group>"; };
+		870EB25838230F6FD6650BB452FE2BB5 /* RecordingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordingButton.swift; path = Sources/InstantSearchVoiceOverlay/Views/RecordingButton.swift; sourceTree = "<group>"; };
+		88122E317EB7575A4EB55DF442C726E2 /* siri_end.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = siri_end.mp3; path = Sources/InstantSearchVoiceOverlay/Sound/siri_end.mp3; sourceTree = "<group>"; };
+		8DB7E05E363415EF6B6DBD4C90FB07C1 /* InstantSearchVoiceOverlay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstantSearchVoiceOverlay-prefix.pch"; sourceTree = "<group>"; };
+		902C5C1A22A8C7166E38695C126A8D29 /* SpeechRecognitionPermissionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechRecognitionPermissionController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/Permission/SpeechRecognitionPermissionController.swift; sourceTree = "<group>"; };
+		9113B8F00A4CC024F57B76E8BA8E10AA /* CloseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloseView.swift; path = Sources/InstantSearchVoiceOverlay/Views/CloseView.swift; sourceTree = "<group>"; };
+		92021AE5DA513730042990C34EC4B60D /* Pods-GPT Art VisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPT Art VisionTests.release.xcconfig"; sourceTree = "<group>"; };
+		93EDA26EB14C6990E6F5E5EB414BD156 /* Pods-GPT Art Vision-GPT Art VisionUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPT Art Vision-GPT Art VisionUITests-Info.plist"; sourceTree = "<group>"; };
+		95F728732574F50202944C92C2F12699 /* Pods-GPT Art Vision-GPT Art VisionUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPT Art Vision-GPT Art VisionUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9AD1EE55F34E601FDF740E787A975BCC /* Recordable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recordable.swift; path = Sources/InstantSearchVoiceOverlay/Protocols/Recordable.swift; sourceTree = "<group>"; };
+		9C4CE741D762F691BF42AB99377FE3FC /* InstantSearchVoiceOverlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstantSearchVoiceOverlay-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB3A595BB691AEDC7FFF99DEC9E0D6FB /* Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4DA7CA55B6B4F58723EA36732B4D02A /* Pods-GPT Art Vision-GPT Art VisionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPT Art Vision-GPT Art VisionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5BB75FEEFB295D3C4D809DB70A5D6C7 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Sources/InstantSearchVoiceOverlay/Helpers/Constant.swift; sourceTree = "<group>"; };
+		C7C4724338095EDDECBBBF1FFE671307 /* siri_error.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = siri_error.mp3; path = Sources/InstantSearchVoiceOverlay/Sound/siri_error.mp3; sourceTree = "<group>"; };
+		C906FF0017ACE692189192383B875D74 /* InstantSearchVoiceOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstantSearchVoiceOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99ED256B46BB386C2E07C9007E3D457 /* Pods-GPT Art Vision-GPT Art VisionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPT Art Vision-GPT Art VisionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB5164AD1F75D0E8901E25AD5AC90C43 /* Pods-GPT Art Vision-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPT Art Vision-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD24CD95024A3C7C84C48D8792BBE650 /* Pods-GPT Art Vision-GPT Art VisionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPT Art Vision-GPT Art VisionUITests-dummy.m"; sourceTree = "<group>"; };
+		DE2D3980015F6238FD122ADF13552CD6 /* VoiceOverlayController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceOverlayController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/VoiceOverlayController.swift; sourceTree = "<group>"; };
+		DF36EDDAD3D9E25477D777D57CFD12EC /* Pods-GPT Art VisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPT Art VisionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECE3FE42F2141F51F3CD04F71530762A /* Pods-GPT Art Vision */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GPT Art Vision"; path = Pods_GPT_Art_Vision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D5ABB2ADCFDC907E248AD6B6DA3734 /* Pods-GPT Art VisionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPT Art VisionTests-dummy.m"; sourceTree = "<group>"; };
+		FEFED5C24A9BA327E70306D52E79A7D8 /* Pods-GPT Art Vision-GPT Art VisionUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPT Art Vision-GPT Art VisionUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40AB862B86CF61AD7A2F2206C2F896A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D927B342D461544C45F616DC6C57B8F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815D0BAB0FDE46A8496D750693532A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A7450D0636AA46CDBEB1AE465A13C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAD5BD8ABB7E0768BF61ECE9E105C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67745B0DB04C9808C71726334685C1CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03DAA298665F8A94B2E3C14ACEE3C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BAE9538FA26117A2CF1C2AB2A2B3E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43977E34DE8F264F277AD6C29DDBC242 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49DECFFA47D4898AE1512DC7BB3D595E /* Assets.xcassets */,
+				88122E317EB7575A4EB55DF442C726E2 /* siri_end.mp3 */,
+				C7C4724338095EDDECBBBF1FFE671307 /* siri_error.mp3 */,
+				558CA1AD0F05689331ADA28E283BD93F /* siri_start.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4A2966728041FC21E0459F4E751982A3 /* Pods-GPT Art VisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ACD2FF167BD1C431FCE8E05874B4746 /* Pods-GPT Art VisionTests.modulemap */,
+				50F2FA625403C60D276605E74D3963F5 /* Pods-GPT Art VisionTests-acknowledgements.markdown */,
+				357E1ECD012178BE2D7393A3BF310B4D /* Pods-GPT Art VisionTests-acknowledgements.plist */,
+				F5D5ABB2ADCFDC907E248AD6B6DA3734 /* Pods-GPT Art VisionTests-dummy.m */,
+				7F2B41563F69ABE64F706CAB1A1FFDFE /* Pods-GPT Art VisionTests-Info.plist */,
+				4B2BAB5FCF528AC30C05D4CAB28C9BEA /* Pods-GPT Art VisionTests-umbrella.h */,
+				DF36EDDAD3D9E25477D777D57CFD12EC /* Pods-GPT Art VisionTests.debug.xcconfig */,
+				92021AE5DA513730042990C34EC4B60D /* Pods-GPT Art VisionTests.release.xcconfig */,
+			);
+			name = "Pods-GPT Art VisionTests";
+			path = "Target Support Files/Pods-GPT Art VisionTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		662F5F45B5F840B70DE3FD2A20A152F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				113B4F8296F500A88980264815A732E0 /* InstantSearchVoiceOverlay.modulemap */,
+				9C4CE741D762F691BF42AB99377FE3FC /* InstantSearchVoiceOverlay-dummy.m */,
+				6633DF7970A9717632D6E3958390E191 /* InstantSearchVoiceOverlay-Info.plist */,
+				8DB7E05E363415EF6B6DBD4C90FB07C1 /* InstantSearchVoiceOverlay-prefix.pch */,
+				2BC84B8E847A5E8369438024ED7CA6CD /* InstantSearchVoiceOverlay-umbrella.h */,
+				82DD9B481BA9486825288ECD4AA8C2A4 /* InstantSearchVoiceOverlay.debug.xcconfig */,
+				5F669754CA69F851A47915CAB3E5C45F /* InstantSearchVoiceOverlay.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/InstantSearchVoiceOverlay";
+			sourceTree = "<group>";
+		};
+		72918DB521704B2BB5C08CA755614BB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C906FF0017ACE692189192383B875D74 /* InstantSearchVoiceOverlay.framework */,
+				ECE3FE42F2141F51F3CD04F71530762A /* Pods-GPT Art Vision */,
+				3CAAF2998F6D3F7536B2C63525A4FC6A /* Pods-GPT Art Vision-GPT Art VisionUITests */,
+				81CFCE5D316E0001AE14408C01868B75 /* Pods-GPT Art VisionTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18E474311767EAB9E704121E003792F /* Pods-GPT Art Vision-GPT Art VisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				474D397B419C97541477AF0A392D14F1 /* Pods-GPT Art Vision-GPT Art VisionUITests.modulemap */,
+				2D09256D7CF62A9932D841979271A409 /* Pods-GPT Art Vision-GPT Art VisionUITests-acknowledgements.markdown */,
+				C4DA7CA55B6B4F58723EA36732B4D02A /* Pods-GPT Art Vision-GPT Art VisionUITests-acknowledgements.plist */,
+				DD24CD95024A3C7C84C48D8792BBE650 /* Pods-GPT Art Vision-GPT Art VisionUITests-dummy.m */,
+				95F728732574F50202944C92C2F12699 /* Pods-GPT Art Vision-GPT Art VisionUITests-frameworks.sh */,
+				93EDA26EB14C6990E6F5E5EB414BD156 /* Pods-GPT Art Vision-GPT Art VisionUITests-Info.plist */,
+				FEFED5C24A9BA327E70306D52E79A7D8 /* Pods-GPT Art Vision-GPT Art VisionUITests-umbrella.h */,
+				C99ED256B46BB386C2E07C9007E3D457 /* Pods-GPT Art Vision-GPT Art VisionUITests.debug.xcconfig */,
+				BB3A595BB691AEDC7FFF99DEC9E0D6FB /* Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig */,
+			);
+			name = "Pods-GPT Art Vision-GPT Art VisionUITests";
+			path = "Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests";
+			sourceTree = "<group>";
+		};
+		C894F0DA13B01BF0821D55783A24B3F0 /* Pods-GPT Art Vision */ = {
+			isa = PBXGroup;
+			children = (
+				553FF46E818CB0BADCEACAEA33EB427B /* Pods-GPT Art Vision.modulemap */,
+				10DE7375D8EB7075D1813CBAD0733CC9 /* Pods-GPT Art Vision-acknowledgements.markdown */,
+				DB5164AD1F75D0E8901E25AD5AC90C43 /* Pods-GPT Art Vision-acknowledgements.plist */,
+				05A599796913BE5D09D4D8820153EE3D /* Pods-GPT Art Vision-dummy.m */,
+				2D51EA6A65BEC8A6B1A8F85D3B7FF834 /* Pods-GPT Art Vision-frameworks.sh */,
+				1CF495E3D6F0D54166AE44B656133DC3 /* Pods-GPT Art Vision-Info.plist */,
+				3B596F603417CFDE196F8C62CFCC19D1 /* Pods-GPT Art Vision-umbrella.h */,
+				1376893AE64678CC9AAE14CD85AE6744 /* Pods-GPT Art Vision.debug.xcconfig */,
+				5522CFB50C4EE7C2EB244432F8E1F322 /* Pods-GPT Art Vision.release.xcconfig */,
+			);
+			name = "Pods-GPT Art Vision";
+			path = "Target Support Files/Pods-GPT Art Vision";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E216616929ACEDDABC2C1EB7728237B4 /* Pods */,
+				72918DB521704B2BB5C08CA755614BB8 /* Products */,
+				F6659C8FCC5ADF7E3C517C7477B289BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D65F0FF6FE320A5F513F46CE5395FAE4 /* InstantSearchVoiceOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				783A9EC1722617E668250F4F44CA5088 /* AllowPermissionButton.swift */,
+				713CD3BEA3DBA28389913616D94EDBC3 /* AutoLayoutHelpers.swift */,
+				9113B8F00A4CC024F57B76E8BA8E10AA /* CloseView.swift */,
+				C5BB75FEEFB295D3C4D809DB70A5D6C7 /* Constant.swift */,
+				0C7B8885C5461029381EB29D607F85B0 /* Extensions.swift */,
+				0B3B350806A265177DD131E0CDE66144 /* MicrophonePermissionController.swift */,
+				8012E6DBDF8A5ED9EDD750F120512178 /* NoPermissionViewController.swift */,
+				007DFD96E0B6EEFFB638E30FDE58B99B /* PermissionController.swift */,
+				20A99096E4B017CE7CE37843FC66FCC2 /* PermissionViewController.swift */,
+				9AD1EE55F34E601FDF740E787A975BCC /* Recordable.swift */,
+				870EB25838230F6FD6650BB452FE2BB5 /* RecordingButton.swift */,
+				4166B62C49DB6236A4FC5E68EE83D9AD /* RecordingViewController.swift */,
+				6DD4186F1F15649FC77E51A314EE3A91 /* ResultViewController.swift */,
+				12B0FF7FE1EAD0A54B8F00DDB879E712 /* SpeechController.swift */,
+				902C5C1A22A8C7166E38695C126A8D29 /* SpeechRecognitionPermissionController.swift */,
+				DE2D3980015F6238FD122ADF13552CD6 /* VoiceOverlayController.swift */,
+				22EECB3DE06F88F17FE26FE5F0B4AB2C /* VoiceOverlayPackage.swift */,
+				43977E34DE8F264F277AD6C29DDBC242 /* Resources */,
+				662F5F45B5F840B70DE3FD2A20A152F3 /* Support Files */,
+			);
+			path = InstantSearchVoiceOverlay;
+			sourceTree = "<group>";
+		};
+		E216616929ACEDDABC2C1EB7728237B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D65F0FF6FE320A5F513F46CE5395FAE4 /* InstantSearchVoiceOverlay */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6659C8FCC5ADF7E3C517C7477B289BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C894F0DA13B01BF0821D55783A24B3F0 /* Pods-GPT Art Vision */,
+				B18E474311767EAB9E704121E003792F /* Pods-GPT Art Vision-GPT Art VisionUITests */,
+				4A2966728041FC21E0459F4E751982A3 /* Pods-GPT Art VisionTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A1F417F1656E10E2056A01BEB1449CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EDE681265E0972D9B97A871862B77C /* Pods-GPT Art Vision-GPT Art VisionUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2EE3718BB21011711D02F2D1C6AE04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDDC1FAEE011C9F5D1AB9C38EACC55F /* InstantSearchVoiceOverlay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC9F34AFBBDD8CF0F04F3E0C10A835A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4F2950E8D450DAE107ED4995F73B86 /* Pods-GPT Art VisionTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA27E1B446AEBC53E2B71CDF3755B203 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3675D7CC3F5402498976BDCF49E30A6C /* Pods-GPT Art Vision-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		105450CC0C5EFF350B4F486106EEBCCE /* Pods-GPT Art VisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836A4A14238CE4DA2057CD6846027CE2 /* Build configuration list for PBXNativeTarget "Pods-GPT Art VisionTests" */;
+			buildPhases = (
+				9DC9F34AFBBDD8CF0F04F3E0C10A835A /* Headers */,
+				EC306C1D7E1D9E04147EB9F77BCB50D4 /* Sources */,
+				40AB862B86CF61AD7A2F2206C2F896A4 /* Frameworks */,
+				6185A44DE5AE48FB49086B0AB744B7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B2B68899CCF824A0C6366E1E7F3B5C /* PBXTargetDependency */,
+			);
+			name = "Pods-GPT Art VisionTests";
+			productName = Pods_GPT_Art_VisionTests;
+			productReference = 81CFCE5D316E0001AE14408C01868B75 /* Pods-GPT Art VisionTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		10FD92345398C28600325DF7F69F5B71 /* Pods-GPT Art Vision-GPT Art VisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416805154265EB85091A4B63F4F3A34C /* Build configuration list for PBXNativeTarget "Pods-GPT Art Vision-GPT Art VisionUITests" */;
+			buildPhases = (
+				0A1F417F1656E10E2056A01BEB1449CD /* Headers */,
+				FABC13D0615AF72E2377E6DAC9783323 /* Sources */,
+				815D0BAB0FDE46A8496D750693532A14 /* Frameworks */,
+				ED72F82FC5A4DD007AEE1F6B253D467D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C78E8A5E8EF51E3A198C47B35B01CF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-GPT Art Vision-GPT Art VisionUITests";
+			productName = Pods_GPT_Art_Vision_GPT_Art_VisionUITests;
+			productReference = 3CAAF2998F6D3F7536B2C63525A4FC6A /* Pods-GPT Art Vision-GPT Art VisionUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A186D5E4FEF43A5AF44DB305B59EC1F /* InstantSearchVoiceOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4C67EC7A1A56B29EDE84793AB4052B /* Build configuration list for PBXNativeTarget "InstantSearchVoiceOverlay" */;
+			buildPhases = (
+				7B2EE3718BB21011711D02F2D1C6AE04 /* Headers */,
+				549F2357820067CA5417B68235AB6277 /* Sources */,
+				8AAD5BD8ABB7E0768BF61ECE9E105C42 /* Frameworks */,
+				AE6448F5B222401719631E161951D5E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstantSearchVoiceOverlay;
+			productName = InstantSearchVoiceOverlay;
+			productReference = C906FF0017ACE692189192383B875D74 /* InstantSearchVoiceOverlay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C22B6851CB037D3A0081C53D5BE51AA1 /* Pods-GPT Art Vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E812C2137764332D7CFB26AEDC3367CC /* Build configuration list for PBXNativeTarget "Pods-GPT Art Vision" */;
+			buildPhases = (
+				AA27E1B446AEBC53E2B71CDF3755B203 /* Headers */,
+				1CE789C03E3BBC213782646515936603 /* Sources */,
+				C03DAA298665F8A94B2E3C14ACEE3C73 /* Frameworks */,
+				7CF54F0D2704A2236042337748561023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4763687BB3D892ECEC510DB430B2971B /* PBXTargetDependency */,
+			);
+			name = "Pods-GPT Art Vision";
+			productName = Pods_GPT_Art_Vision;
+			productReference = ECE3FE42F2141F51F3CD04F71530762A /* Pods-GPT Art Vision */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 72918DB521704B2BB5C08CA755614BB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A186D5E4FEF43A5AF44DB305B59EC1F /* InstantSearchVoiceOverlay */,
+				C22B6851CB037D3A0081C53D5BE51AA1 /* Pods-GPT Art Vision */,
+				10FD92345398C28600325DF7F69F5B71 /* Pods-GPT Art Vision-GPT Art VisionUITests */,
+				105450CC0C5EFF350B4F486106EEBCCE /* Pods-GPT Art VisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6185A44DE5AE48FB49086B0AB744B7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF54F0D2704A2236042337748561023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6448F5B222401719631E161951D5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4435593B5ECBDE56CC3F5D5D6C990C1 /* Assets.xcassets in Resources */,
+				EA15CA6E08F706CCD958B5EEBBD75C90 /* siri_end.mp3 in Resources */,
+				C90F6CC0D0E8441E62E9B140A888BF75 /* siri_error.mp3 in Resources */,
+				424EB94BBFA3A97A94793874115BF523 /* siri_start.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED72F82FC5A4DD007AEE1F6B253D467D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE789C03E3BBC213782646515936603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F04C460BFB95F2C716F9457BE5BD2D /* Pods-GPT Art Vision-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549F2357820067CA5417B68235AB6277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC152B478B694588EB28350029A2617B /* AllowPermissionButton.swift in Sources */,
+				869BF589E4C75673915DB95E8C9A4F8C /* AutoLayoutHelpers.swift in Sources */,
+				AF3A29E67E34282D50D7DC97742D5243 /* CloseView.swift in Sources */,
+				A65D51D04D880EE9122FA0287B2EA026 /* Constant.swift in Sources */,
+				C46C1116AA0E15E6FCE33D096F010C3C /* Extensions.swift in Sources */,
+				36150899F496FD20911570360B423549 /* InstantSearchVoiceOverlay-dummy.m in Sources */,
+				BA1AFC0A9203F0E87C321FE204C11F12 /* MicrophonePermissionController.swift in Sources */,
+				DB98BEE4B060CA1D7589E2C0B4CC03BF /* NoPermissionViewController.swift in Sources */,
+				2F3DD307F2EEB76D2D9EA0F30BCD5A4A /* PermissionController.swift in Sources */,
+				FE3528054D192AEEF224A8747C9FDBF9 /* PermissionViewController.swift in Sources */,
+				713F13C8DF5E2E86320A1A2DCBB8FC10 /* Recordable.swift in Sources */,
+				D8AC6E738E4E3FA7E729B4B84D333F6C /* RecordingButton.swift in Sources */,
+				749E8A6DF7317BA967676D2F98151CAB /* RecordingViewController.swift in Sources */,
+				4BF1615DDA8F4C8E533F9EABE1BAF618 /* ResultViewController.swift in Sources */,
+				C79028A35996D001576898825A855A9C /* SpeechController.swift in Sources */,
+				BE67F42865862718E42A19D22FA2233B /* SpeechRecognitionPermissionController.swift in Sources */,
+				21AE10D00992DB40CB73A31864B43EAD /* VoiceOverlayController.swift in Sources */,
+				4990357689879DCFEC2DFABDA5543AEA /* VoiceOverlayPackage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC306C1D7E1D9E04147EB9F77BCB50D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DE8721576C7E65B227FB6E8AD61663 /* Pods-GPT Art VisionTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABC13D0615AF72E2377E6DAC9783323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694465EFC5F35272C0A2579A814BC2FF /* Pods-GPT Art Vision-GPT Art VisionUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4763687BB3D892ECEC510DB430B2971B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InstantSearchVoiceOverlay;
+			target = 3A186D5E4FEF43A5AF44DB305B59EC1F /* InstantSearchVoiceOverlay */;
+			targetProxy = 40130B2AD5A64C3BD9BAF1224CCD7E9A /* PBXContainerItemProxy */;
+		};
+		5C78E8A5E8EF51E3A198C47B35B01CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InstantSearchVoiceOverlay;
+			target = 3A186D5E4FEF43A5AF44DB305B59EC1F /* InstantSearchVoiceOverlay */;
+			targetProxy = BE0B19F8998810D9F8685EB2F5943088 /* PBXContainerItemProxy */;
+		};
+		F8B2B68899CCF824A0C6366E1E7F3B5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GPT Art Vision";
+			target = C22B6851CB037D3A0081C53D5BE51AA1 /* Pods-GPT Art Vision */;
+			targetProxy = 31B814DE497F43AD470B217446DEDC3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2DF685FE2F982156BF4C6901EFADE873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF36EDDAD3D9E25477D777D57CFD12EC /* Pods-GPT Art VisionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPT Art VisionTests/Pods-GPT Art VisionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPT Art VisionTests/Pods-GPT Art VisionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		375302465B11133A45686558055FDE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92021AE5DA513730042990C34EC4B60D /* Pods-GPT Art VisionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPT Art VisionTests/Pods-GPT Art VisionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPT Art VisionTests/Pods-GPT Art VisionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A778A54312517139A3858ABACE6898E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DD9B481BA9486825288ECD4AA8C2A4 /* InstantSearchVoiceOverlay.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InstantSearchVoiceOverlay/InstantSearchVoiceOverlay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InstantSearchVoiceOverlay/InstantSearchVoiceOverlay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/InstantSearchVoiceOverlay/InstantSearchVoiceOverlay.modulemap";
+				PRODUCT_MODULE_NAME = InstantSearchVoiceOverlay;
+				PRODUCT_NAME = InstantSearchVoiceOverlay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41FA1A4F3F83967AC2DAF92DDA887A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3A595BB691AEDC7FFF99DEC9E0D6FB /* Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests/Pods-GPT Art Vision-GPT Art VisionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests/Pods-GPT Art Vision-GPT Art VisionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F4225877C794ABEB78776F47754104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7F97BBE860475472D892514A707C6DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1376893AE64678CC9AAE14CD85AE6744 /* Pods-GPT Art Vision.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPT Art Vision/Pods-GPT Art Vision-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPT Art Vision/Pods-GPT Art Vision.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4A9086F919930EF6A6A86C9820A1335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F669754CA69F851A47915CAB3E5C45F /* InstantSearchVoiceOverlay.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InstantSearchVoiceOverlay/InstantSearchVoiceOverlay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InstantSearchVoiceOverlay/InstantSearchVoiceOverlay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/InstantSearchVoiceOverlay/InstantSearchVoiceOverlay.modulemap";
+				PRODUCT_MODULE_NAME = InstantSearchVoiceOverlay;
+				PRODUCT_NAME = InstantSearchVoiceOverlay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D44FF16C23D997867637650461375977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99ED256B46BB386C2E07C9007E3D457 /* Pods-GPT Art Vision-GPT Art VisionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests/Pods-GPT Art Vision-GPT Art VisionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests/Pods-GPT Art Vision-GPT Art VisionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCB37A04325AE9800074212C443F44D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5522CFB50C4EE7C2EB244432F8E1F322 /* Pods-GPT Art Vision.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPT Art Vision/Pods-GPT Art Vision-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPT Art Vision/Pods-GPT Art Vision.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416805154265EB85091A4B63F4F3A34C /* Build configuration list for PBXNativeTarget "Pods-GPT Art Vision-GPT Art VisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44FF16C23D997867637650461375977 /* Debug */,
+				41FA1A4F3F83967AC2DAF92DDA887A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */,
+				6F4225877C794ABEB78776F47754104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4C67EC7A1A56B29EDE84793AB4052B /* Build configuration list for PBXNativeTarget "InstantSearchVoiceOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A778A54312517139A3858ABACE6898E /* Debug */,
+				C4A9086F919930EF6A6A86C9820A1335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836A4A14238CE4DA2057CD6846027CE2 /* Build configuration list for PBXNativeTarget "Pods-GPT Art VisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF685FE2F982156BF4C6901EFADE873 /* Debug */,
+				375302465B11133A45686558055FDE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E812C2137764332D7CFB26AEDC3367CC /* Build configuration list for PBXNativeTarget "Pods-GPT Art Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F97BBE860475472D892514A707C6DF6 /* Debug */,
+				FCB37A04325AE9800074212C443F44D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

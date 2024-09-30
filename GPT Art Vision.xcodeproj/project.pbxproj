@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04659E3E8A6862936A92DF51 /* Pods_GPT_Art_VisionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C109B83145F0E239DE076728 /* Pods_GPT_Art_VisionTests.framework */; };
+		0FF72D82461F8D5B6BFAFBE2 /* Pods_GPT_Art_Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0133EC5D5C8FB5042A53DB8 /* Pods_GPT_Art_Vision.framework */; };
+		230769492C7A38D50006B430 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230769482C7A38D50006B430 /* SpeechManager.swift */; };
+		233C70BF2CA7F04700E76D8B /* LoggingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233C70BE2CA7F04700E76D8B /* LoggingSystem.swift */; };
+		233C70C42CA7FA1100E76D8B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 233C70C32CA7FA1100E76D8B /* RealmSwift */; };
+		233C70D62CA7FB2C00E76D8B /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C70D22CA7FB2C00E76D8B /* NetworkManager.m */; };
+		233C70D72CA7FB2C00E76D8B /* VolatileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C70D42CA7FB2C00E76D8B /* VolatileStorage.m */; };
+		233C70D82CA7FB2C00E76D8B /* IcarusUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C70CE2CA7FB2C00E76D8B /* IcarusUtilities.m */; };
+		233C70D92CA7FB2C00E76D8B /* Icarus.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C70CA2CA7FB2C00E76D8B /* Icarus.m */; };
+		233C70DA2CA7FB2C00E76D8B /* IcarusResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C70CC2CA7FB2C00E76D8B /* IcarusResource.m */; };
+		233C70DB2CA7FB2C00E76D8B /* FsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C70C82CA7FB2C00E76D8B /* FsStorage.m */; };
+		233C70DD2CA7FEC500E76D8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233C70DC2CA7FEC500E76D8B /* AppDelegate.swift */; };
+		239A57202C78C60200A72142 /* GPT_Art_VisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A571F2C78C60200A72142 /* GPT_Art_VisionApp.swift */; };
+		239A57242C78C60300A72142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239A57232C78C60300A72142 /* Assets.xcassets */; };
+		239A57272C78C60300A72142 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239A57262C78C60300A72142 /* Preview Assets.xcassets */; };
+		239A57312C78C60400A72142 /* GPT_Art_VisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A57302C78C60400A72142 /* GPT_Art_VisionTests.swift */; };
+		239A573B2C78C60400A72142 /* GPT_Art_VisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A573A2C78C60400A72142 /* GPT_Art_VisionUITests.swift */; };
+		239A573D2C78C60400A72142 /* GPT_Art_VisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A573C2C78C60400A72142 /* GPT_Art_VisionUITestsLaunchTests.swift */; };
+		239A574E2C78C6C200A72142 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A574A2C78C6C200A72142 /* CustomARView.swift */; };
+		239A574F2C78C6C200A72142 /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A574B2C78C6C200A72142 /* CustomARViewRepresentable.swift */; };
+		239A57512C78C6D400A72142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A57502C78C6D400A72142 /* ContentView.swift */; };
+		23F061112C975A2D0046AC36 /* PaintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F061102C975A2D0046AC36 /* PaintingView.swift */; };
+		4F1998680CFA9C1C071F7D58 /* Pods_GPT_Art_Vision_GPT_Art_VisionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C271923AB44E4623A7B55B /* Pods_GPT_Art_Vision_GPT_Art_VisionUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		239A572D2C78C60400A72142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 239A57142C78C60200A72142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239A571B2C78C60200A72142;
+			remoteInfo = "GPT Art Vision";
+		};
+		239A57372C78C60400A72142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 239A57142C78C60200A72142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239A571B2C78C60200A72142;
+			remoteInfo = "GPT Art Vision";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230769482C7A38D50006B430 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpeechManager.swift; path = ../../ARapp/ARapp/Views/SpeechManager.swift; sourceTree = "<group>"; };
+		233C70BE2CA7F04700E76D8B /* LoggingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingSystem.swift; sourceTree = "<group>"; };
+		233C70C52CA7FA3700E76D8B /* Icarus */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icarus; sourceTree = "<group>"; };
+		233C70C62CA7FA9600E76D8B /* IcarusFramework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = IcarusFramework; path = "../../../logging sys/IcarusFramework"; sourceTree = "<group>"; };
+		233C70C72CA7FB2C00E76D8B /* FsStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FsStorage.h; sourceTree = "<group>"; };
+		233C70C82CA7FB2C00E76D8B /* FsStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FsStorage.m; sourceTree = "<group>"; };
+		233C70C92CA7FB2C00E76D8B /* Icarus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Icarus.h; sourceTree = "<group>"; };
+		233C70CA2CA7FB2C00E76D8B /* Icarus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Icarus.m; sourceTree = "<group>"; };
+		233C70CB2CA7FB2C00E76D8B /* IcarusResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IcarusResource.h; sourceTree = "<group>"; };
+		233C70CC2CA7FB2C00E76D8B /* IcarusResource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IcarusResource.m; sourceTree = "<group>"; };
+		233C70CD2CA7FB2C00E76D8B /* IcarusUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IcarusUtilities.h; sourceTree = "<group>"; };
+		233C70CE2CA7FB2C00E76D8B /* IcarusUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IcarusUtilities.m; sourceTree = "<group>"; };
+		233C70CF2CA7FB2C00E76D8B /* LocalStorageProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalStorageProtocol.h; sourceTree = "<group>"; };
+		233C70D02CA7FB2C00E76D8B /* GPT-Art-Vision-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPT-Art-Vision-Bridging-Header.h"; sourceTree = "<group>"; };
+		233C70D12CA7FB2C00E76D8B /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		233C70D22CA7FB2C00E76D8B /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		233C70D32CA7FB2C00E76D8B /* VolatileStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VolatileStorage.h; sourceTree = "<group>"; };
+		233C70D42CA7FB2C00E76D8B /* VolatileStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolatileStorage.m; sourceTree = "<group>"; };
+		233C70DC2CA7FEC500E76D8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		239A571C2C78C60200A72142 /* GPT Art Vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPT Art Vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		239A571F2C78C60200A72142 /* GPT_Art_VisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Art_VisionApp.swift; sourceTree = "<group>"; };
+		239A57232C78C60300A72142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		239A57262C78C60300A72142 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		239A572C2C78C60400A72142 /* GPT Art VisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPT Art VisionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		239A57302C78C60400A72142 /* GPT_Art_VisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Art_VisionTests.swift; sourceTree = "<group>"; };
+		239A57362C78C60400A72142 /* GPT Art VisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPT Art VisionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		239A573A2C78C60400A72142 /* GPT_Art_VisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Art_VisionUITests.swift; sourceTree = "<group>"; };
+		239A573C2C78C60400A72142 /* GPT_Art_VisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_Art_VisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		239A574A2C78C6C200A72142 /* CustomARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomARView.swift; path = ../CustomARView.swift; sourceTree = "<group>"; };
+		239A574B2C78C6C200A72142 /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomARViewRepresentable.swift; path = ../CustomARViewRepresentable.swift; sourceTree = "<group>"; };
+		239A57502C78C6D400A72142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
+		23F061102C975A2D0046AC36 /* PaintingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaintingView.swift; path = ../PaintingView.swift; sourceTree = "<group>"; };
+		56A3F38F2F3517FD92FCF365 /* Pods-GPT Art VisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPT Art VisionTests.release.xcconfig"; path = "Target Support Files/Pods-GPT Art VisionTests/Pods-GPT Art VisionTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A96DFE96A0D7F719FCBB818 /* Pods-GPT Art Vision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPT Art Vision.debug.xcconfig"; path = "Target Support Files/Pods-GPT Art Vision/Pods-GPT Art Vision.debug.xcconfig"; sourceTree = "<group>"; };
+		7B83C53AB4D939DDB155514C /* Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig"; path = "Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests/Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D09FEDB7883DDD7368049E9 /* Pods-GPT Art Vision-GPT Art VisionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPT Art Vision-GPT Art VisionUITests.debug.xcconfig"; path = "Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests/Pods-GPT Art Vision-GPT Art VisionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7BFA458B3454CA4463CCBE6 /* Pods-GPT Art VisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPT Art VisionTests.debug.xcconfig"; path = "Target Support Files/Pods-GPT Art VisionTests/Pods-GPT Art VisionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C109B83145F0E239DE076728 /* Pods_GPT_Art_VisionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPT_Art_VisionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C271923AB44E4623A7B55B /* Pods_GPT_Art_Vision_GPT_Art_VisionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPT_Art_Vision_GPT_Art_VisionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A7D8F16120C7583A4BFF48 /* Pods-GPT Art Vision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPT Art Vision.release.xcconfig"; path = "Target Support Files/Pods-GPT Art Vision/Pods-GPT Art Vision.release.xcconfig"; sourceTree = "<group>"; };
+		F0133EC5D5C8FB5042A53DB8 /* Pods_GPT_Art_Vision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPT_Art_Vision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		239A57192C78C60200A72142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233C70C42CA7FA1100E76D8B /* RealmSwift in Frameworks */,
+				0FF72D82461F8D5B6BFAFBE2 /* Pods_GPT_Art_Vision.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239A57292C78C60400A72142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04659E3E8A6862936A92DF51 /* Pods_GPT_Art_VisionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239A57332C78C60400A72142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1998680CFA9C1C071F7D58 /* Pods_GPT_Art_Vision_GPT_Art_VisionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23168D4B2CA6F54600DCCE12 /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				239A57502C78C6D400A72142 /* ContentView.swift */,
+				239A574B2C78C6C200A72142 /* CustomARViewRepresentable.swift */,
+				239A574A2C78C6C200A72142 /* CustomARView.swift */,
+			);
+			path = ARView;
+			sourceTree = "<group>";
+		};
+		23168D4C2CA6F55A00DCCE12 /* PaintingView */ = {
+			isa = PBXGroup;
+			children = (
+				23F061102C975A2D0046AC36 /* PaintingView.swift */,
+			);
+			path = PaintingView;
+			sourceTree = "<group>";
+		};
+		233C70D52CA7FB2C00E76D8B /* Icarus */ = {
+			isa = PBXGroup;
+			children = (
+				233C70C72CA7FB2C00E76D8B /* FsStorage.h */,
+				233C70C82CA7FB2C00E76D8B /* FsStorage.m */,
+				233C70C92CA7FB2C00E76D8B /* Icarus.h */,
+				233C70CA2CA7FB2C00E76D8B /* Icarus.m */,
+				233C70CB2CA7FB2C00E76D8B /* IcarusResource.h */,
+				233C70CC2CA7FB2C00E76D8B /* IcarusResource.m */,
+				233C70CD2CA7FB2C00E76D8B /* IcarusUtilities.h */,
+				233C70CE2CA7FB2C00E76D8B /* IcarusUtilities.m */,
+				233C70CF2CA7FB2C00E76D8B /* LocalStorageProtocol.h */,
+				233C70D02CA7FB2C00E76D8B /* GPT-Art-Vision-Bridging-Header.h */,
+				233C70D12CA7FB2C00E76D8B /* NetworkManager.h */,
+				233C70D22CA7FB2C00E76D8B /* NetworkManager.m */,
+				233C70D32CA7FB2C00E76D8B /* VolatileStorage.h */,
+				233C70D42CA7FB2C00E76D8B /* VolatileStorage.m */,
+			);
+			path = Icarus;
+			sourceTree = "<group>";
+		};
+		239A57132C78C60200A72142 = {
+			isa = PBXGroup;
+			children = (
+				233C70D52CA7FB2C00E76D8B /* Icarus */,
+				239A571E2C78C60200A72142 /* GPT Art Vision */,
+				239A572F2C78C60400A72142 /* GPT Art VisionTests */,
+				239A57392C78C60400A72142 /* GPT Art VisionUITests */,
+				239A571D2C78C60200A72142 /* Products */,
+				8472CABC7F8CADF2CE2A00D9 /* Pods */,
+				BED5CD654C8787CD529B3A81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		239A571D2C78C60200A72142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				239A571C2C78C60200A72142 /* GPT Art Vision.app */,
+				239A572C2C78C60400A72142 /* GPT Art VisionTests.xctest */,
+				239A57362C78C60400A72142 /* GPT Art VisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		239A571E2C78C60200A72142 /* GPT Art Vision */ = {
+			isa = PBXGroup;
+			children = (
+				239A574C2C78C6C200A72142 /* Views */,
+				239A571F2C78C60200A72142 /* GPT_Art_VisionApp.swift */,
+				233C70DC2CA7FEC500E76D8B /* AppDelegate.swift */,
+				230769482C7A38D50006B430 /* SpeechManager.swift */,
+				233C70BE2CA7F04700E76D8B /* LoggingSystem.swift */,
+				239A57232C78C60300A72142 /* Assets.xcassets */,
+				239A57252C78C60300A72142 /* Preview Content */,
+			);
+			path = "GPT Art Vision";
+			sourceTree = "<group>";
+		};
+		239A57252C78C60300A72142 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				239A57262C78C60300A72142 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		239A572F2C78C60400A72142 /* GPT Art VisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				239A57302C78C60400A72142 /* GPT_Art_VisionTests.swift */,
+			);
+			path = "GPT Art VisionTests";
+			sourceTree = "<group>";
+		};
+		239A57392C78C60400A72142 /* GPT Art VisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				239A573A2C78C60400A72142 /* GPT_Art_VisionUITests.swift */,
+				239A573C2C78C60400A72142 /* GPT_Art_VisionUITestsLaunchTests.swift */,
+			);
+			path = "GPT Art VisionUITests";
+			sourceTree = "<group>";
+		};
+		239A574C2C78C6C200A72142 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23168D4C2CA6F55A00DCCE12 /* PaintingView */,
+				23168D4B2CA6F54600DCCE12 /* ARView */,
+			);
+			name = Views;
+			path = ../../ARapp/ARapp/Views;
+			sourceTree = "<group>";
+		};
+		8472CABC7F8CADF2CE2A00D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A96DFE96A0D7F719FCBB818 /* Pods-GPT Art Vision.debug.xcconfig */,
+				E4A7D8F16120C7583A4BFF48 /* Pods-GPT Art Vision.release.xcconfig */,
+				8D09FEDB7883DDD7368049E9 /* Pods-GPT Art Vision-GPT Art VisionUITests.debug.xcconfig */,
+				7B83C53AB4D939DDB155514C /* Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig */,
+				B7BFA458B3454CA4463CCBE6 /* Pods-GPT Art VisionTests.debug.xcconfig */,
+				56A3F38F2F3517FD92FCF365 /* Pods-GPT Art VisionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BED5CD654C8787CD529B3A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				233C70C62CA7FA9600E76D8B /* IcarusFramework */,
+				233C70C52CA7FA3700E76D8B /* Icarus */,
+				F0133EC5D5C8FB5042A53DB8 /* Pods_GPT_Art_Vision.framework */,
+				D1C271923AB44E4623A7B55B /* Pods_GPT_Art_Vision_GPT_Art_VisionUITests.framework */,
+				C109B83145F0E239DE076728 /* Pods_GPT_Art_VisionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		239A571B2C78C60200A72142 /* GPT Art Vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239A57402C78C60400A72142 /* Build configuration list for PBXNativeTarget "GPT Art Vision" */;
+			buildPhases = (
+				647D8884CEA8754F0DA0B945 /* [CP] Check Pods Manifest.lock */,
+				239A57182C78C60200A72142 /* Sources */,
+				239A57192C78C60200A72142 /* Frameworks */,
+				239A571A2C78C60200A72142 /* Resources */,
+				E2D597230EDE6F941EF3E8E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPT Art Vision";
+			productName = "GPT Art Vision";
+			productReference = 239A571C2C78C60200A72142 /* GPT Art Vision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		239A572B2C78C60400A72142 /* GPT Art VisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239A57432C78C60400A72142 /* Build configuration list for PBXNativeTarget "GPT Art VisionTests" */;
+			buildPhases = (
+				6BDDFAF1BBD3BE4C71CEDB5F /* [CP] Check Pods Manifest.lock */,
+				239A57282C78C60400A72142 /* Sources */,
+				239A57292C78C60400A72142 /* Frameworks */,
+				239A572A2C78C60400A72142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				239A572E2C78C60400A72142 /* PBXTargetDependency */,
+			);
+			name = "GPT Art VisionTests";
+			productName = "GPT Art VisionTests";
+			productReference = 239A572C2C78C60400A72142 /* GPT Art VisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		239A57352C78C60400A72142 /* GPT Art VisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239A57462C78C60400A72142 /* Build configuration list for PBXNativeTarget "GPT Art VisionUITests" */;
+			buildPhases = (
+				65762BDDD1F30242F9130BFB /* [CP] Check Pods Manifest.lock */,
+				239A57322C78C60400A72142 /* Sources */,
+				239A57332C78C60400A72142 /* Frameworks */,
+				239A57342C78C60400A72142 /* Resources */,
+				E1C6CA85A9B28C196C8C4C86 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				239A57382C78C60400A72142 /* PBXTargetDependency */,
+			);
+			name = "GPT Art VisionUITests";
+			productName = "GPT Art VisionUITests";
+			productReference = 239A57362C78C60400A72142 /* GPT Art VisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		239A57142C78C60200A72142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					239A571B2C78C60200A72142 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					239A572B2C78C60400A72142 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 239A571B2C78C60200A72142;
+					};
+					239A57352C78C60400A72142 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 239A571B2C78C60200A72142;
+					};
+				};
+			};
+			buildConfigurationList = 239A57172C78C60200A72142 /* Build configuration list for PBXProject "GPT Art Vision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 239A57132C78C60200A72142;
+			packageReferences = (
+				233C70C22CA7F64C00E76D8B /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
+			productRefGroup = 239A571D2C78C60200A72142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				239A571B2C78C60200A72142 /* GPT Art Vision */,
+				239A572B2C78C60400A72142 /* GPT Art VisionTests */,
+				239A57352C78C60400A72142 /* GPT Art VisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		239A571A2C78C60200A72142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239A57272C78C60300A72142 /* Preview Assets.xcassets in Resources */,
+				239A57242C78C60300A72142 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239A572A2C78C60400A72142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239A57342C78C60400A72142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		647D8884CEA8754F0DA0B945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPT Art Vision-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65762BDDD1F30242F9130BFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPT Art Vision-GPT Art VisionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BDDFAF1BBD3BE4C71CEDB5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPT Art VisionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C6CA85A9B28C196C8C4C86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests/Pods-GPT Art Vision-GPT Art VisionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests/Pods-GPT Art Vision-GPT Art VisionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPT Art Vision-GPT Art VisionUITests/Pods-GPT Art Vision-GPT Art VisionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D597230EDE6F941EF3E8E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPT Art Vision/Pods-GPT Art Vision-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPT Art Vision/Pods-GPT Art Vision-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPT Art Vision/Pods-GPT Art Vision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		239A57182C78C60200A72142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239A574F2C78C6C200A72142 /* CustomARViewRepresentable.swift in Sources */,
+				230769492C7A38D50006B430 /* SpeechManager.swift in Sources */,
+				233C70DD2CA7FEC500E76D8B /* AppDelegate.swift in Sources */,
+				23F061112C975A2D0046AC36 /* PaintingView.swift in Sources */,
+				233C70BF2CA7F04700E76D8B /* LoggingSystem.swift in Sources */,
+				239A57512C78C6D400A72142 /* ContentView.swift in Sources */,
+				239A57202C78C60200A72142 /* GPT_Art_VisionApp.swift in Sources */,
+				239A574E2C78C6C200A72142 /* CustomARView.swift in Sources */,
+				233C70D62CA7FB2C00E76D8B /* NetworkManager.m in Sources */,
+				233C70D72CA7FB2C00E76D8B /* VolatileStorage.m in Sources */,
+				233C70D82CA7FB2C00E76D8B /* IcarusUtilities.m in Sources */,
+				233C70D92CA7FB2C00E76D8B /* Icarus.m in Sources */,
+				233C70DA2CA7FB2C00E76D8B /* IcarusResource.m in Sources */,
+				233C70DB2CA7FB2C00E76D8B /* FsStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239A57282C78C60400A72142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239A57312C78C60400A72142 /* GPT_Art_VisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239A57322C78C60400A72142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239A573D2C78C60400A72142 /* GPT_Art_VisionUITestsLaunchTests.swift in Sources */,
+				239A573B2C78C60400A72142 /* GPT_Art_VisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		239A572E2C78C60400A72142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 239A571B2C78C60200A72142 /* GPT Art Vision */;
+			targetProxy = 239A572D2C78C60400A72142 /* PBXContainerItemProxy */;
+		};
+		239A57382C78C60400A72142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 239A571B2C78C60200A72142 /* GPT Art Vision */;
+			targetProxy = 239A57372C78C60400A72142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		239A573E2C78C60400A72142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		239A573F2C78C60400A72142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+		239A57412C78C60400A72142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A96DFE96A0D7F719FCBB818 /* Pods-GPT Art Vision.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPT Art Vision/Preview Content\"";
+				DEVELOPMENT_TEAM = M5ZR538H7P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app will use the camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lak.GPT-Art-Vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Icarus/GPT-Art-Vision-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		239A57422C78C60400A72142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A7D8F16120C7583A4BFF48 /* Pods-GPT Art Vision.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPT Art Vision/Preview Content\"";
+				DEVELOPMENT_TEAM = M5ZR538H7P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app will use the camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lak.GPT-Art-Vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Icarus/GPT-Art-Vision-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		239A57442C78C60400A72142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BFA458B3454CA4463CCBE6 /* Pods-GPT Art VisionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5ZR538H7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lak.GPT-Art-VisionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPT Art Vision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPT Art Vision";
+			};
+			name = Debug;
+		};
+		239A57452C78C60400A72142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A3F38F2F3517FD92FCF365 /* Pods-GPT Art VisionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5ZR538H7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lak.GPT-Art-VisionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPT Art Vision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPT Art Vision";
+			};
+			name = Release;
+		};
+		239A57472C78C60400A72142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D09FEDB7883DDD7368049E9 /* Pods-GPT Art Vision-GPT Art VisionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5ZR538H7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lak.GPT-Art-VisionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GPT Art Vision";
+			};
+			name = Debug;
+		};
+		239A57482C78C60400A72142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B83C53AB4D939DDB155514C /* Pods-GPT Art Vision-GPT Art VisionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5ZR538H7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lak.GPT-Art-VisionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GPT Art Vision";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		239A57172C78C60200A72142 /* Build configuration list for PBXProject "GPT Art Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239A573E2C78C60400A72142 /* Debug */,
+				239A573F2C78C60400A72142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239A57402C78C60400A72142 /* Build configuration list for PBXNativeTarget "GPT Art Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239A57412C78C60400A72142 /* Debug */,
+				239A57422C78C60400A72142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239A57432C78C60400A72142 /* Build configuration list for PBXNativeTarget "GPT Art VisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239A57442C78C60400A72142 /* Debug */,
+				239A57452C78C60400A72142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239A57462C78C60400A72142 /* Build configuration list for PBXNativeTarget "GPT Art VisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239A57472C78C60400A72142 /* Debug */,
+				239A57482C78C60400A72142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		233C70C22CA7F64C00E76D8B /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		233C70C32CA7FA1100E76D8B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 233C70C22CA7F64C00E76D8B /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 239A57142C78C60200A72142 /* Project object */;
+}

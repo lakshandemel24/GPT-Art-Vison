@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "bacio di hayez.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 21.167000000000002
+  }
+}

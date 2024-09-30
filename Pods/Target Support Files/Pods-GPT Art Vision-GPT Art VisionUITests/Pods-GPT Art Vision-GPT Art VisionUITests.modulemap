@@ -1,0 +1,6 @@
+framework module Pods_GPT_Art_Vision_GPT_Art_VisionUITests {
+  umbrella header "Pods-GPT Art Vision-GPT Art VisionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
