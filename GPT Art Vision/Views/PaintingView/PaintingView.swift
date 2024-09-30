@@ -158,7 +158,7 @@ struct PaintingView: View {
         let url = URL(string: "https://api.openai.com/v1/chat/completions")!
         
         // Your OpenAI API Key
-        let apiKey = "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"
+        let apiKey = ProcessInfo.processInfo.environment["OPENAI_API_KEY"] ?? "No API Key Available"
         
         // Request Payload
         let parameters: [String: Any] = [
@@ -346,8 +346,7 @@ struct PaintingView: View {
         // OpenAI API URL
         let url = URL(string: "https://api.openai.com/v1/chat/completions")!
         
-        // Your OpenAI API Key
-        let apiKey = "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"
+        let apiKey = ProcessInfo.processInfo.environment["OPENAI_API_KEY"] ?? "No API Key Available"
         
         // Request Payload
         let parameters: [String: Any] = [
