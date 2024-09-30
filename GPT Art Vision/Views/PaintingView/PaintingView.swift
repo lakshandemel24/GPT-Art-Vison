@@ -158,7 +158,7 @@ struct PaintingView: View {
         let url = URL(string: "https://api.openai.com/v1/chat/completions")!
         
         // Your OpenAI API Key
-        let apiKey = "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"
+        let apiKey = "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"
         
         // Request Payload
         let parameters: [String: Any] = [
@@ -214,6 +214,9 @@ struct PaintingView: View {
                 print("Total Tokens Used: \(totalTokens)")
                 LoggingSystem.push(eventLog: ["event" : "GPT request-response", "request" :  speechData.speechRequest, "response" : content, "tokens" : totalTokens, "model" : "gpt-4o", "paintingName" : currentPainting , "responseTime" : String(format: "%.2f", waitingTime)], verbose: false)
             } else {
+                SpeechManager.shared.speak(text: "Attualmente stiamo riscontrando problemi di rete...") {
+                    
+                }
                 print("Failed to parse response")
                 LoggingSystem.push(eventLog: ["event" : "Error", "details" : "GPT failed to parse response"], verbose: false)
             }
@@ -240,6 +243,10 @@ struct PaintingView: View {
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             
             if let error = error {
+                SpeechManager.shared.stopSpeaking(immediately: true)
+                SpeechManager.shared.speak(text: "Errore, torna indietro e riprova ad inquadrare il dipinto...") {
+                    
+                }
                 // Print network-related error
                 print("Network error: \(error.localizedDescription)")
                 LoggingSystem.push(eventLog: ["event" : "Error", "details" : "HuggingFace API Network error: \(error.localizedDescription)"], verbose: false)
@@ -251,6 +258,10 @@ struct PaintingView: View {
                 //print("HTTP Status Code: \(httpResponse.statusCode)")
                 
                 if !(200...299).contains(httpResponse.statusCode) {
+                    SpeechManager.shared.stopSpeaking(immediately: true)
+                    SpeechManager.shared.speak(text: "Errore, torna indietro e riprova ad inquadrare il dipinto...") {
+                        
+                    }
                     // Print server-side errors
                     print("Server error: HTTP Status Code \(httpResponse.statusCode)")
                     LoggingSystem.push(eventLog: ["event" : "Error", "details" : "HuggingFace API Server error: HTTP Status Code \(httpResponse.statusCode)"], verbose: false)
@@ -336,7 +347,7 @@ struct PaintingView: View {
         let url = URL(string: "https://api.openai.com/v1/chat/completions")!
         
         // Your OpenAI API Key
-        let apiKey = "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"
+        let apiKey = "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"
         
         // Request Payload
         let parameters: [String: Any] = [

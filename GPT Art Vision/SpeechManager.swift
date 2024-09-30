@@ -27,7 +27,7 @@ class SpeechManager {
     
     private func setupAudioSessionForPlayback() {
         do {
-            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.duckOthers])
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.defaultToSpeaker])
             try AVAudioSession.sharedInstance().setActive(true)
             //print("Audio session successfully configured for playback.")
         } catch {
