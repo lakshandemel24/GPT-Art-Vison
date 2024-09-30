@@ -142,14 +142,13 @@ struct PaintingView: View {
                     speechData.speechRequest = "\(speechData.speechRequest) in riferimento al dipinto '\(currentPainting)'"
                     //print(speechData.speechRequest)
                     gptRequest()
-                    voiceOverlay.dismiss()
                 } else {
                     speechData.speechRequest = text
-                    voiceOverlay.dismiss()
                 }
             }, errorHandler: { error in
                 // Handle error
             })
+            voiceOverlay.dismiss()
         }
     }
     
