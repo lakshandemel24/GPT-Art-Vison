@@ -142,8 +142,10 @@ struct PaintingView: View {
                     speechData.speechRequest = "\(speechData.speechRequest) in riferimento al dipinto '\(currentPainting)'"
                     //print(speechData.speechRequest)
                     gptRequest()
+                    voiceOverlay.dismiss()
                 } else {
                     speechData.speechRequest = text
+                    voiceOverlay.dismiss()
                 }
             }, errorHandler: { error in
                 // Handle error
@@ -189,6 +191,10 @@ struct PaintingView: View {
         let task = session.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {
                 print("Error: \(error?.localizedDescription ?? "Unknown error")")
+                SpeechManager.shared.stopSpeaking(immediately: true)
+                SpeechManager.shared.speak(text: "Attualmente stiamo riscontrando problemi di rete...") {
+                    
+                }
                 LoggingSystem.push(eventLog: ["event" : "Error", "details" : "GPT API Error: \(error?.localizedDescription ?? "Unknown error")"], verbose: false)
                 return
             }
@@ -214,11 +220,13 @@ struct PaintingView: View {
                 print("Total Tokens Used: \(totalTokens)")
                 LoggingSystem.push(eventLog: ["event" : "GPT request-response", "request" :  speechData.speechRequest, "response" : content, "tokens" : totalTokens, "model" : "gpt-4o", "paintingName" : currentPainting , "responseTime" : String(format: "%.2f", waitingTime)], verbose: false)
             } else {
+                SpeechManager.shared.stopSpeaking(immediately: true)
                 SpeechManager.shared.speak(text: "Attualmente stiamo riscontrando problemi di rete...") {
                     
                 }
                 print("Failed to parse response")
                 LoggingSystem.push(eventLog: ["event" : "Error", "details" : "GPT failed to parse response"], verbose: false)
+                return
             }
         }
         
@@ -377,6 +385,10 @@ struct PaintingView: View {
         let task = session.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {
                 print("Error: \(error?.localizedDescription ?? "Unknown error")")
+                SpeechManager.shared.stopSpeaking(immediately: true)
+                SpeechManager.shared.speak(text: "Attualmente stiamo riscontrando problemi di rete...") {
+                    isLoading = false
+                }
                 return
             }
             
@@ -399,6 +411,11 @@ struct PaintingView: View {
                 LoggingSystem.push(eventLog: ["event" : "GPT touch-response", "screenCoordinates" : ["pointX" : PaintingTouchPoint.x, "pointY" : PaintingTouchPoint.y], "touchedLabel" : label, "response" : content, "tokens" : totalTokens, "model" : "gpt-4o", "paintingName" : currentPainting , "responseTime" : String(format: "%.2f", waitingTime)], verbose: false)
             } else {
                 print("Failed to parse response")
+                SpeechManager.shared.stopSpeaking(immediately: true)
+                SpeechManager.shared.speak(text: "Attualmente stiamo riscontrando problemi di rete...") {
+                    isLoading = false
+                }
+                return
             }
         }
         
