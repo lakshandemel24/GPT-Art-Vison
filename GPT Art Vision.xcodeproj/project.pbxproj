@@ -678,7 +678,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GPT Art Vision/Preview Content\"";
-				DEVELOPMENT_TEAM = M5ZR538H7P;
+				DEVELOPMENT_TEAM = 54LA74JLVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app will use the camera";
@@ -693,7 +693,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Lakshan.GPT-Art-Vision";
+				PRODUCT_BUNDLE_IDENTIFIER = it.unimi.ewlab.gptartvision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Icarus/GPT-Art-Vision-Bridging-Header.h";
@@ -711,7 +711,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GPT Art Vision/Preview Content\"";
-				DEVELOPMENT_TEAM = M5ZR538H7P;
+				DEVELOPMENT_TEAM = 54LA74JLVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app will use the camera";
@@ -726,7 +726,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Lakshan.GPT-Art-Vision";
+				PRODUCT_BUNDLE_IDENTIFIER = it.unimi.ewlab.gptartvision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Icarus/GPT-Art-Vision-Bridging-Header.h";
